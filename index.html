@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Website</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    /* Add any custom CSS styles here */
+    body {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+
+  
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Roboto:wght@900&display=swap');
+
+:root {
+    --font-color: #F6F1E9;
+    --background-color: #4F200D;
+    --2nd-color: #FF8400;
+    }
+header {
+    background-color:var(--font-color);
+    color: #4F200D;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+    
+    }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #4F200D;
+    padding-left: 3rem;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    padding-right: 5rem;
+    color:#4F200D
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #4F200D;
+    text-decoration: none;
+    letter-spacing: 10px;
+    word-spacing: 1inch;
+  }
+  
+  /* Banner Styles */
+  #banner {
+    height: 40rem;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+   
+  }
+  
+  #banner img {
+    min-width: 100%;
+    max-height: 100%;
+  }
+  
+  /* Main Content Styles */
+  #main-content {
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+    border: 10px solid 27E1C1;
+    padding: 0px;
+    padding-left: 50px;
+    color: #4F200D;
+    
+  }
+
+  article {
+    margin: 10px;
+    padding:  30px;
+    background-color:--;
+    border: 50px solid #4F200D;
+    flex-basis: calc(40.40% );
+    padding-right: 30px;
+    
+
+    
+    
+    
+  }
+
+  
+  article h2 {
+    margin: 0;
+    font-size: 1.5em;
+    padding: 20px;
+    border: 100%;   
+    text-align: center;
+    
+  }
+  
+  /* Sidebar Styles */
+  #sidebar {
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    flex-basis: 20%;
+  }
+  
+  #sidebar h3 {
+    margin: 0;
+    font-size: 5rem;
+    text-align: center;
+    color: #4F200D;
+  }
+  
+  .column {
+  
+  width: 20%;
+  margin-left: 0rem;
+  margin-bottom: 3rem;
+  
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+  
+}
+  /* Footer Styles */
+  .footer{
+    background:var(--black);
+    text-align: center;
+}
+
+.footer .share{
+    padding:1rem 0;
+}
+
+.contact .row{
+    display: flex;
+    background:var(--black);
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.contact .row .map{
+    flex:1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+
+   
+}
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:3rem 2rem;
+    text-align: center;
+    background: var(--background-color);
+    
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color:var(--font-color);
+   
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background:var(--font-color);
+    border:var(--font-color);
+    padding-left: 5%;
+}
+
+.contact .row form .inputBox span{
+    color:var(--border);
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+    width: 100%;
+    padding:2rem;
+    font-size: 1.5rem;
+    color:var(--border);
+    text-transform: none;
+    background:none;
+}
+.contact .row form .btn{
+    color:var(--background-color);
+    background: var();
+    cursor: pointer; 
+    font-size: 40px;
+    ;
+}
+.footer{
+    background:var(--font-color);
+    text-align: center;
+}
+
+.footer .share{
+    padding:1rem 0;
+}
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:var(--border);
+    border:var(--border);
+    margin:.3rem;
+    border-radius: 50%;
+}
+
+.footer .share a:hover{
+    background-color:#4F200D;
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    gap:1rem;
+}
+.footer .links ul li{
+    list-style: none;
+    display: inline-block;
+    position:relative;
+
+}
+
+.footer .links a{
+    padding:.7rem 2rem;
+    color:var(--border);
+    border:var(--border);
+    font-size: 2rem;
+}
+
+.footer .links a:hover{
+    background: var(--background-color);;
+}
+
+.footer .credit{
+    font-size: 2rem;
+    color:var(--border);
+    font-weight: lighter;
+    padding:1.5rem;
+}
+
+.footer .credit span{
+    color:var(--border);
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Add any content for the header here -->
+    <h1>My Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="banner">
+    <!-- Add any content for the banner here -->
+    <img src="Pinterest_ mia_hankss 🤎📔.jpg" alt="Banner Image">
+  </div>
+
+  <div id="main-content" >
+    <article>
+      <h2>SPK PERFUME INFORMATION</h2>
+      <p>WHERE SCENT COMES WITH SYTLE.</p>
+       <a href="http://127.0.0.1:5502/index.html">See More</a>
+    </article>
+    <article>
+      <h2>Hummus Recipe</h2>
+      <p>LOOKING FOR A HOT AND SIZZLING RECIPE FOR THIS SUMMER?
+      </p>
+
+    <a href="http://127.0.0.1:5501/index.html">See More</a>
+    </article>
+  </div>
+
+  <aside id="sidebar">
+    <!-- Add any content for the sidebar here -->
+    <h3> FOOD RECIPIES FOR SUMMER</h3>
+    
+    
+        <div class="column">
+          <center><iframe width="2050" height="415" src="https://www.youtube.com/embed/hblIsx6K4UI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+          <a href="https://www.youtube.com/watch?v=hblIsx6K4UI"target="_blank"> CREAMY CAJUN CHICKEN PASTA| HOW TO MAKE CAJUN CHICKEN PASTA</a>
+        </div>
+      
+        <div class="column">
+          <center><iframe width="2050" height="415" src="https://www.youtube.com/embed/nDpb7_44-RU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+        <a href="https://www.youtube.com/watch?v=nDpb7_44-RU"target="_blank"> GARLIC BUTTER CHICKEN RECIPE | CHICKEN RECIPE | ULAM PINOY RECEIPT</a>
+        </div>
+    
+      <div class="column">
+      <center><iframe width="2050" height="415" src="https://www.youtube.com/embed/sqelF9LaAlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+      <a href="https://www.youtube.com/watch?v=sqelF9LaAlQ"target="_blank">CHIKEN FRICASSE - QUICK FRENCE CHICKEN STEW</a>
+  
+  </div>
+  </aside>
+
+  <section class="contact" id="contact">
+
+
+    <div class="row">
+    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.3715914927916!2d121.
+        00046654970866!3d14.463339384255264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ce6cd24ec5f3%3A0x58c468bb6047c03a!
+        2sGrand%20Monaco%20Southpoint!5e0!3m2!1sfil!2sph!4v1671007359945!5m2!1sfil!2sph"
+         width="900" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="Phone number">
+            </div>
+            <input type="submit" value="Contact Now" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+  <footer>
+
+  <section class="footer">
+  
+      <div class="share">
+          <a href="https://www.facebook.com/rj.navasca.52/" class="fab fa-facebook-f"></a>
+          <a href="https://twitter.com/home" class="fab fa-twitter"></a>
+          <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+          <a href="https://www.pinterest.ph/mquierues/" class="fab fa-pinterest"></a>
+      </div>
+  
+      <div class="links">
+         
+          <ul>
+              <li><a href="#home"> HOME</a><li>
+              <li><a href="#categories"> CATEGORIES </a><li>
+              <li><a href="#contact"> CONTACT</a></li>
+  
+          </ul>  
+     
+      </div>
+  
+      <div class="credit">Created by <span>LOURDES ANN ARENDON</span> | All Rights Reserved</div>
+  
+    <!-- Add any content for the footer here -->
+    <p>&copy; 2023 My Website</p>
+  </footer>
+
+</body>
+</html>
